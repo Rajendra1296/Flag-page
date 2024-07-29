@@ -1,0 +1,40 @@
+.container {
+  min-width: 245px;
+
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.flexs {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(184, 187, 188);
+}
+
+img {
+  width: 220px;
+}
+p {
+  line-height: 2.5;
+  font-size: 13px;
+}
+span {
+  font-weight: bold;
+}
+body {
+  background-color: whitesmoke;
+  place-items: centre;
+  padding: 50px;
+}
+.content {
+  padding-left: 15px;
+}
